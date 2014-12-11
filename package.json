@@ -1,5 +1,5 @@
 {
-  "name": "esnext",
+  "name": "esnext-ee",
   "version": "0.13.0",
   "description": "Transform next-generation JavaScript to today's JavaScript.",
   "main": "lib/index.js",
@@ -7,7 +7,7 @@
     "test": "make test"
   },
   "bin": {
-    "esnext": "./bin/esnext"
+    "esnext-ee": "./bin/esnext"
   },
   "files": [
     "lib/index.js",
@@ -26,8 +26,8 @@
   "devDependencies": {
     "brfs": "^1.2.0",
     "browserify": "^6.2.0",
-    "esotope": "^1.4.2",
-    "esprima": "^1.2.2",
+    "escodegen": "git://github.com/estools/escodegen",
+    "esprima-fb": "^8001.1001.0-dev-harmony-fb",
     "example-runner": "^0.2.0"
   },
   "dependencies": {
@@ -41,6 +41,7 @@
     "es6-rest-params": "^0.3.0",
     "es6-spread": "^0.2.0",
     "es6-templates": "^0.2.0",
+    "escodegen": "^1.4.2-dev",
     "mkdirp": "^0.5.0",
     "recast": "^0.8.0",
     "regenerator": "^0.6.7",
